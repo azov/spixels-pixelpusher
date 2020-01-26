@@ -96,6 +96,7 @@ static StripFactory parseType(const char *type) {
   if (strcasecmp(type, "APA102") == 0) return &spixels::CreateAPA102Strip;
   if (strcasecmp(type, "WS2801") == 0) return &spixels::CreateWS2801Strip;
   if (strcasecmp(type, "LDP6803") == 0) return &spixels::CreateLPD6803Strip;
+  if (strcasecmp(type, "P9813") == 0) return &spixels::CreateP9813Strip;
   return NULL;
 }
 
