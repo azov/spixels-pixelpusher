@@ -8,7 +8,7 @@ To compile, retrieve this repository with the `--recursive` option to get
 all needed sub-modules.
 
 ```
-git clone --recursive https://github.com/hzeller/spixels-pixelpusher
+git clone --recursive https://github.com/azov/spixels-pixelpusher
 ```
 
 Then compile with `make`. The resulting binary `spixels-pixel-push` has the
